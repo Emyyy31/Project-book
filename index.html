@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga - Animebook Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="emy.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Manga-Pulse.</h1>
+    <nav>
+        <a href="#top">Home</a>
+        <a href="#library">Library</a>
+        <a href="#about">About</a>
+        <button id="theme-toggle">Dark Mode</button>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Discover Your Next Favorite Anime</h2>
+        <p>Explore anime about romance, fantasy, action, adventure, and more!</p>
+        <a href="#library" class="button">Explore Stories</a>
+    </section>
+
+    <section id="library">
+        <h2>Our Anime Collection</h2>
+
+        <input
+            type="search"
+            id="search-input"
+            placeholder="Search stories..."
+            aria-label="Search stories"
+        >
+
+        <select id="genre-filter" aria-label="Filter by genre">
+            <option>All Genres</option>
+        </select>
+
+        <p id="results-count">30 stories found</p>
+
+        <div id="book-list" class="book-list"></div>
+    </section>
+
+    <section id="about">
+        <h2>About Manga-Pulse</h2>
+        <p>
+            Manga‑Pulse is an anime story library 
+            where you can read complete first chapter entries 
+            of popular anime series across different genre.
+            Browse action, fantasy, romance, sports and adventure titles, 
+            discover new favorite stories, and enjoy opening‑chapter
+            reads anytime. Feel the steady pulse of exciting manga stories right here.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Manga-Pulse Animebook. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
